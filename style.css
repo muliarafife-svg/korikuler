@@ -1,0 +1,74 @@
+* {
+    font-family: 'Montserrat', serif;
+}
+
+body {
+     margin: 0;
+     padding: 0;
+     background: #f4f4f4;
+ }
+
+ header {
+     background: #92a060;
+     color: white;
+     text-align: center;
+     padding: 20px 0;
+ }
+
+ nav {
+     background: #bac708;
+     padding: 10px;
+     text-align: center;
+ }
+
+ nav a {
+     color: white;
+     margin: 0 15px;
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+ .container {
+     padding: 20px;
+     background: #ceec87;
+ }
+
+ .card {
+     background: white;
+     padding: 20px;
+     margin: 20px 0;
+     border-radius: 10px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .btn {
+     background: #bac708;
+     color: white;
+     border: none;
+     padding: 10px 15px;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ footer {
+     text-align: center;
+     padding: 15px;
+     background: #bac708;
+     color: white;
+     margin-top: 20px;
+ }
+
+ .img {
+     width: 100%;
+     /* memenuhi lebar container */
+     max-width: 400px;
+     /* ukuran maksimal agar seragam */
+     height: 250px;
+     /* tinggi gambar sama */
+     object-fit: cover;
+     /* memotong gambar agar rapi */
+     display: block;
+     margin: 10px auto;
+     /* agar gambar berada di tengah */
+     border-radius: 10px;
+ }
